@@ -1,0 +1,2 @@
+D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\Definitions.Shooter.h
+D:\All_Of_My_Life\github\SingleShooter\Shooter\Source\Shooter\Shooter.h
