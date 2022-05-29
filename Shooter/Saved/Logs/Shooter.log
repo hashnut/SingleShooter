@@ -1959,3 +1959,706 @@ Scale3D: 1.000000 1.000000 1.000000
 [2022.05.29-11.49.47:925][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.05.29-11.49.47:928][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
 [2022.05.29-11.49.48:015][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.05.29-11.56.17:923][285]LogHotReload: New module detected: UE4Editor-Shooter-0006.dll
+[2022.05.29-11.56.20:134][291]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.29-11.56.20:189][291]LogClass: EItemState HotReload.
+[2022.05.29-11.56.20:189][291]LogClass: EItemRarity HotReload.
+[2022.05.29-11.56.20:196][291]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.05.29-11.56.20:201][291]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.05.29-11.56.20:261][291]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0117 seconds. Added 3827 classes and 930 folders.
+[2022.05.29-11.56.20:268][291]Display: HotReload took  0.1s.
+[2022.05.29-11.56.23:145][339]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.29-11.56.23:160][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-11.56.23:160][339]PIE: New page: PIE session: DefaultMap (May 30, 2022, 5:56:23 AM)
+[2022.05.29-11.56.23:186][339]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-11.56.23:189][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002661s)
+[2022.05.29-11.56.23:190][339]LogAIModule: Creating AISystem for world DefaultMap
+[2022.05.29-11.56.23:190][339]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2022.05.29-11.56.23:190][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003865s)
+[2022.05.29-11.56.23:206][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.05.29-11.56.23:206][339]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.05.29-11.56.23:206][339]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-11.56.23:206][339]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-11.56.23:206][339]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-11.56.23:206][339]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-11.56.23:206][339]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-11.56.23:206][339]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-11.56.23:206][339]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-11.56.23:206][339]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-11.56.23:207][339]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-11.56.23:207][339]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-11.56.23:207][339]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-11.56.23:207][339]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-11.56.23:210][339]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-11.56.23:210][339]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-11.56.23:221][339]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2022.05.29-11.56.23:221][339]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-11.56.23:221][339]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-11.56.23:221][339]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-11.56.23:222][339]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-11.56.23:222][339]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-11.56.23:222][339]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-11.56.23:223][339]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-11.56.23:223][339]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-11.56.23:223][339]LogInit: FAudioDevice initialized.
+[2022.05.29-11.56.23:223][339]LogAudio: Display: Audio Device (ID: 19) registered with world 'DefaultMap'.
+[2022.05.29-11.56.23:232][339]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.05.29-11.56.23:234][339]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2022.05.29-20.56.23
+[2022.05.29-11.56.23:234][339]LogWorld: Bringing up level for play took: 0.001447
+[2022.05.29-11.56.23:234][339]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.05.29-11.56.23:239][339]PIE: Server logged in
+[2022.05.29-11.56.23:240][339]PIE: Play in editor total start time 0.081 seconds.
+[2022.05.29-11.56.37:687][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-11.56.37:687][ 59]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-11.56.37:687][ 59]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-11.56.37:688][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-11.56.37:698][ 59]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-11.56.37:701][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-11.56.37:705][ 59]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-11.56.37:705][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-11.56.37:706][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-11.56.37:708][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-11.56.37:710][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.05.29-11.56.37:820][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.05.29-11.56.52:161][172]LogHotReload: New module detected: UE4Editor-Shooter-0007.dll
+[2022.05.29-11.56.54:469][178]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.29-11.56.54:525][178]LogClass: EItemState HotReload.
+[2022.05.29-11.56.54:525][178]LogClass: EItemRarity HotReload.
+[2022.05.29-11.56.54:533][178]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.05.29-11.56.54:537][178]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.05.29-11.56.54:600][178]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0132 seconds. Added 3827 classes and 930 folders.
+[2022.05.29-11.56.54:609][178]Display: HotReload took  0.1s.
+[2022.05.29-11.56.56:475][221]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.29-11.56.56:490][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-11.56.56:490][221]PIE: New page: PIE session: DefaultMap (May 30, 2022, 5:56:56 AM)
+[2022.05.29-11.56.56:516][221]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-11.56.56:519][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002911s)
+[2022.05.29-11.56.56:520][221]LogAIModule: Creating AISystem for world DefaultMap
+[2022.05.29-11.56.56:520][221]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2022.05.29-11.56.56:520][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.004134s)
+[2022.05.29-11.56.56:535][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.05.29-11.56.56:536][221]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.05.29-11.56.56:536][221]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-11.56.56:536][221]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-11.56.56:536][221]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-11.56.56:536][221]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-11.56.56:536][221]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-11.56.56:536][221]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-11.56.56:536][221]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-11.56.56:536][221]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-11.56.56:536][221]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-11.56.56:537][221]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-11.56.56:537][221]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-11.56.56:537][221]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-11.56.56:539][221]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-11.56.56:539][221]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-11.56.56:551][221]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2022.05.29-11.56.56:552][221]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-11.56.56:552][221]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-11.56.56:552][221]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-11.56.56:552][221]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-11.56.56:552][221]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-11.56.56:552][221]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-11.56.56:553][221]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-11.56.56:553][221]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-11.56.56:553][221]LogInit: FAudioDevice initialized.
+[2022.05.29-11.56.56:553][221]LogAudio: Display: Audio Device (ID: 20) registered with world 'DefaultMap'.
+[2022.05.29-11.56.56:562][221]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.05.29-11.56.56:564][221]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2022.05.29-20.56.56
+[2022.05.29-11.56.56:564][221]LogWorld: Bringing up level for play took: 0.001412
+[2022.05.29-11.56.56:564][221]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.05.29-11.56.56:569][221]PIE: Server logged in
+[2022.05.29-11.56.56:570][221]PIE: Play in editor total start time 0.081 seconds.
+[2022.05.29-11.57.00:737][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-11.57.00:737][703]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-11.57.00:737][703]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-11.57.00:738][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-11.57.00:747][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-11.57.00:750][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-11.57.00:756][703]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-11.57.00:756][703]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-11.57.00:757][703]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-11.57.00:759][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-11.57.00:761][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.05.29-11.57.00:790][704]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.05.29-11.57.01:578][785]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.29-11.57.01:592][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-11.57.01:592][785]PIE: New page: PIE session: DefaultMap (May 30, 2022, 5:57:01 AM)
+[2022.05.29-11.57.01:592][785]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-11.57.01:596][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003211s)
+[2022.05.29-11.57.01:596][785]LogAIModule: Creating AISystem for world DefaultMap
+[2022.05.29-11.57.01:597][785]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2022.05.29-11.57.01:597][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.004470s)
+[2022.05.29-11.57.01:603][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.05.29-11.57.01:603][785]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.05.29-11.57.01:603][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-11.57.01:603][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-11.57.01:603][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-11.57.01:603][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-11.57.01:604][785]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-11.57.01:604][785]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-11.57.01:604][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-11.57.01:604][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-11.57.01:604][785]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-11.57.01:604][785]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-11.57.01:604][785]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-11.57.01:604][785]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-11.57.01:607][785]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-11.57.01:607][785]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-11.57.01:620][785]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2022.05.29-11.57.01:620][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-11.57.01:621][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-11.57.01:621][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-11.57.01:621][785]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-11.57.01:621][785]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-11.57.01:621][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-11.57.01:622][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-11.57.01:622][785]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-11.57.01:622][785]LogInit: FAudioDevice initialized.
+[2022.05.29-11.57.01:622][785]LogAudio: Display: Audio Device (ID: 21) registered with world 'DefaultMap'.
+[2022.05.29-11.57.01:632][785]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.05.29-11.57.01:634][785]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2022.05.29-20.57.01
+[2022.05.29-11.57.01:634][785]LogWorld: Bringing up level for play took: 0.001402
+[2022.05.29-11.57.01:634][785]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.05.29-11.57.01:640][785]PIE: Server logged in
+[2022.05.29-11.57.01:641][785]PIE: Play in editor total start time 0.049 seconds.
+[2022.05.29-11.57.04:417][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-11.57.04:417][105]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-11.57.04:417][105]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-11.57.04:418][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-11.57.04:428][105]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-11.57.04:431][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-11.57.04:435][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-11.57.04:435][105]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-11.57.04:436][105]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-11.57.04:440][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.05.29-11.57.04:547][107]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.05.29-12.13.34:551][234]LogHotReload: New module detected: UE4Editor-Shooter-0009.dll
+[2022.05.29-12.13.38:184][244]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.29-12.13.38:236][244]LogClass: Could not find existing class ShooterCharacter in package /Script/Shooter for HotReload, assuming new class
+[2022.05.29-12.13.38:237][244]LogClass: Function AutoFireReset is new.
+[2022.05.29-12.13.38:237][244]LogClass: Function FinishCrosshairBulletFire is new.
+[2022.05.29-12.13.38:237][244]LogClass: Function GetCrosshairSpreadMultipllier is new.
+[2022.05.29-12.13.38:237][244]LogClass: Function StartCrosshairBulletFire is new.
+[2022.05.29-12.13.38:237][244]LogClass: Function TraceUnderCrosshairs is new.
+[2022.05.29-12.13.38:242][244]LogClass: EItemState HotReload.
+[2022.05.29-12.13.38:242][244]LogClass: EItemRarity HotReload.
+[2022.05.29-12.13.38:253][244]LogHotReload: Re-instancing ShooterCharacter after hot-reload.
+[2022.05.29-12.13.38:273][244]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2022.05.29-12.13.38:281][244]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2022.05.29-12.13.38:338][244]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0109 seconds. Added 3827 classes and 930 folders.
+[2022.05.29-12.13.38:346][244]Display: HotReload took  0.2s.
+[2022.05.29-12.13.42:312][307]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.29-12.13.42:326][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-12.13.42:327][307]PIE: New page: PIE session: DefaultMap (May 30, 2022, 6:13:42 AM)
+[2022.05.29-12.13.42:327][307]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-12.13.42:330][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002873s)
+[2022.05.29-12.13.42:331][307]LogAIModule: Creating AISystem for world DefaultMap
+[2022.05.29-12.13.42:331][307]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2022.05.29-12.13.42:331][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.004110s)
+[2022.05.29-12.13.42:349][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.05.29-12.13.42:350][307]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.05.29-12.13.42:350][307]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-12.13.42:350][307]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-12.13.42:350][307]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-12.13.42:350][307]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-12.13.42:350][307]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-12.13.42:350][307]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-12.13.42:350][307]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-12.13.42:350][307]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-12.13.42:350][307]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-12.13.42:350][307]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-12.13.42:350][307]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-12.13.42:350][307]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-12.13.42:354][307]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-12.13.42:354][307]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-12.13.42:367][307]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2022.05.29-12.13.42:367][307]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-12.13.42:367][307]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-12.13.42:367][307]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-12.13.42:368][307]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-12.13.42:368][307]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-12.13.42:368][307]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-12.13.42:369][307]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-12.13.42:369][307]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-12.13.42:369][307]LogInit: FAudioDevice initialized.
+[2022.05.29-12.13.42:369][307]LogAudio: Display: Audio Device (ID: 22) registered with world 'DefaultMap'.
+[2022.05.29-12.13.42:379][307]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.05.29-12.13.42:381][307]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2022.05.29-21.13.42
+[2022.05.29-12.13.42:381][307]LogWorld: Bringing up level for play took: 0.001478
+[2022.05.29-12.13.42:381][307]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.05.29-12.13.42:387][307]PIE: Server logged in
+[2022.05.29-12.13.42:388][307]PIE: Play in editor total start time 0.062 seconds.
+[2022.05.29-12.13.48:797][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-12.13.48:797][ 60]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-12.13.48:798][ 60]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-12.13.48:798][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-12.13.48:804][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-12.13.48:807][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-12.13.48:811][ 60]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-12.13.48:811][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-12.13.48:812][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-12.13.48:814][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-12.13.48:817][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.05.29-12.13.48:937][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.05.29-12.14.06:711][683]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.05.29-12.14.12:038][250]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.29-12.14.13:971][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap" FILE="D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-12.14.13:978][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.05.29-12.14.14:254][448]LogSavePackage: Moving 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Saved/DefaultMapF4851B0E4AF6088ED9D35AA03DC2F26C.tmp' to 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap.umap'
+[2022.05.29-12.14.14:292][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2022.05.29-12.14.14:382][448]LogSavePackage: Moving 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Saved/DefaultMap_BuiltData073CA7CD44E2F35A457CC8A33ADB1651.tmp' to 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2022.05.29-12.14.14:401][448]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.29-12.14.14:401][448]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2022.05.29-12.14.14:401][448]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2022.05.29-12.14.16:121][634]LogEditorViewport: Clicking on Actor (LMB): BaseWeaponBP_C (BaseWeaponBP2)
+[2022.05.29-12.14.36:582][373]LogTexture: Display: Building textures: T_Belica_m03_Belica_guns_Biohazard_MASK (OODLE_AutoDXT, 4096X4096)
+[2022.05.29-12.14.36:582][373]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.36:582][373]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.36:582][373]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.36:582][373]LogMaterial: Display: Missing cached shadermap for M_Belica_Guns_Biohazard in PCD3D_SM5, Default, SM5 (DDC key hash: A6F27BF5FF800FE4FC90329F0EF8E703AF32F8FC), compiling. 
+[2022.05.29-12.14.36:765][373]LogShaderCompilers: Display: Submitted 138 shader compile jobs with 'Low' priority
+[2022.05.29-12.14.36:771][373]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 138
+[2022.05.29-12.14.36:772][373]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 128
+[2022.05.29-12.14.36:772][373]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 118
+[2022.05.29-12.14.36:772][373]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 108
+[2022.05.29-12.14.36:772][373]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 98
+[2022.05.29-12.14.36:772][373]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 88
+[2022.05.29-12.14.36:772][373]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 78
+[2022.05.29-12.14.36:772][373]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 68
+[2022.05.29-12.14.36:772][373]LogShaderCompilers: Display: Started 80 'Local' shader compile jobs with 'Low' priority
+[2022.05.29-12.14.37:005][386]LogEditorViewport: Clicking on Actor (LMB): BaseWeaponBP_C (BaseWeaponBP)
+[2022.05.29-12.14.39:799][503]LogMaterial: Display: Missing cached shadermap for M_Belica_Guns_Everfrost in PCD3D_SM5, Default, SM5 (DDC key hash: B41FBE1DABC6EBA2752CBB267E9119D5923844F3), compiling. 
+[2022.05.29-12.14.39:933][503]LogShaderCompilers: Display: Submitted 138 shader compile jobs with 'Low' priority
+[2022.05.29-12.14.40:500][533]LogEditorViewport: Clicking on Actor (LMB): BaseWeaponBP_C (BaseWeaponBP6)
+[2022.05.29-12.14.43:078][632]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2022.05.29-12.14.43:078][632]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.43:100][632]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.29-12.14.43:100][632]LogShaderCompilers: Display: Total job queries 276, among them cache hits 0 (0.00%)
+[2022.05.29-12.14.43:100][632]LogShaderCompilers: Display: Tracking 10 distinct input hashes that result in 10 distinct outputs (100.00%)
+[2022.05.29-12.14.43:101][632]LogShaderCompilers: Display: RAM used: 0.08 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.05.29-12.14.43:101][632]LogShaderCompilers: Display: ================================================
+[2022.05.29-12.14.43:120][633]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 18
+[2022.05.29-12.14.43:120][633]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.43:583][648]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2022.05.29-12.14.43:583][648]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.44:574][651]LogTexture: Display: Building textures: T_Carbon_Color (OODLE_AutoDXT, 1024X1024)
+[2022.05.29-12.14.44:574][651]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.29-12.14.44:574][651]LogTexture: Display: Building textures: T_RockFlakes (OODLE_AutoDXT, 2048X2048)
+[2022.05.29-12.14.44:574][651]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.29-12.14.44:574][651]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.29-12.14.44:574][651]LogTexture: Display: Building textures: T_CF_Nor (OODLE_BC5, 1024X1024)
+[2022.05.29-12.14.44:574][651]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.05.29-12.14.44:574][651]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2022.05.29-12.14.44:574][651]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2022.05.29-12.14.44:574][651]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.44:574][651]LogTexture: Display: Building textures: T_Cream_Painted_Metal_N (OODLE_BC5, 2048X2048)
+[2022.05.29-12.14.44:574][651]LogTexture: Display: Building textures: T_ML_Gold_Metal01 (OODLE_AutoDXT, 2048X2048)
+[2022.05.29-12.14.44:574][651]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.05.29-12.14.44:574][651]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.05.29-12.14.44:574][651]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.44:574][651]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.44:574][651]LogTexture: Display: Building textures: T_Cream_Paint_D (OODLE_AutoDXT, 2048X2048)
+[2022.05.29-12.14.45:236][651]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2022.05.29-12.14.45:236][651]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.45:236][651]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.45:236][651]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.45:236][651]LogMaterial: Display: Missing cached shadermap for M_Belica_Guns_PolarStrike in PCD3D_SM5, Default, SM5 (DDC key hash: BBEBBBFE2A96C000B27B53FC12AE5E3FE36B2B66), compiling. 
+[2022.05.29-12.14.45:369][651]LogShaderCompilers: Display: Submitted 138 shader compile jobs with 'Low' priority
+[2022.05.29-12.14.45:429][651]LogEditorViewport: Clicking on Actor (LMB): BaseWeaponBP_C (BaseWeaponBP3)
+[2022.05.29-12.14.45:495][651]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2022.05.29-12.14.45:496][651]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.45:610][652]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2022.05.29-12.14.45:611][652]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.45:894][667]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.05.29-12.14.45:894][667]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.46:600][702]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.05.29-12.14.46:600][702]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.46:737][706]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.05.29-12.14.46:737][706]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.46:803][709]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.05.29-12.14.46:803][709]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.46:992][714]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.05.29-12.14.46:992][714]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.47:025][715]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2022.05.29-12.14.47:025][715]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2022.05.29-12.14.47:025][715]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.47:191][719]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.05.29-12.14.47:191][719]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.47:191][719]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.05.29-12.14.47:191][719]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.47:255][719]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.05.29-12.14.47:255][719]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.47:363][722]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.05.29-12.14.47:363][722]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.47:559][729]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.05.29-12.14.47:560][729]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.47:885][739]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.05.29-12.14.47:885][739]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.47:951][742]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 301
+[2022.05.29-12.14.47:951][742]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.48:026][744]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 291
+[2022.05.29-12.14.48:026][744]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.48:133][747]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 281
+[2022.05.29-12.14.48:133][747]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 271
+[2022.05.29-12.14.48:133][747]LogShaderCompilers: Display: Started 20 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.48:144][747]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 261
+[2022.05.29-12.14.48:144][747]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.48:321][750]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 251
+[2022.05.29-12.14.48:321][750]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.48:342][751]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 241
+[2022.05.29-12.14.48:342][751]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.48:691][757]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 231
+[2022.05.29-12.14.48:691][757]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.49:443][772]LogMaterial: Display: Missing cached shadermap for M_Belica_Guns_SpiderWitch in PCD3D_SM5, Default, SM5 (DDC key hash: 3EA06DFFFAD3CAFA31F6DE7F46667CD296ADFBB8), compiling. 
+[2022.05.29-12.14.49:580][772]LogShaderCompilers: Display: Submitted 138 shader compile jobs with 'Low' priority
+[2022.05.29-12.14.50:232][806]LogEditorViewport: Clicking on Actor (LMB): BaseWeaponBP_C (BaseWeaponBP5)
+[2022.05.29-12.14.52:348][884]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2022.05.29-12.14.52:348][884]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.52:558][891]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2022.05.29-12.14.52:558][891]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.53:198][909]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.05.29-12.14.53:198][909]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.53:518][919]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.05.29-12.14.53:518][919]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.53:590][920]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2022.05.29-12.14.53:591][920]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.53:829][927]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.05.29-12.14.53:829][927]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.54:178][934]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.05.29-12.14.54:178][934]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.54:358][938]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.05.29-12.14.54:358][938]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.54:398][939]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.05.29-12.14.54:398][939]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.54:713][945]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 347
+[2022.05.29-12.14.54:713][945]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.54:807][948]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 337
+[2022.05.29-12.14.54:807][948]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.54:807][948]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 327
+[2022.05.29-12.14.54:807][948]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.54:969][950]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 317
+[2022.05.29-12.14.54:969][950]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.55:043][951]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 307
+[2022.05.29-12.14.55:043][951]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.55:628][962]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 297
+[2022.05.29-12.14.55:628][962]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.55:759][962]LogTexture: Display: Building textures: T_GenericWispTrail (OODLE_AutoDXT, 2048X512)
+[2022.05.29-12.14.55:759][962]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.55:759][962]LogTextureFormatOodle: Display: non-RDO encode 2048 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.29-12.14.55:759][962]LogMaterial: Display: Missing cached shadermap for M_Belica_Heavy_BeamPar in PCD3D_SM5, Default, SM5 (DDC key hash: 9DC3788C145DCF10FF6713BAD5B5B3F82F4D41AA), compiling. 
+[2022.05.29-12.14.55:815][962]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 287
+[2022.05.29-12.14.55:815][962]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.55:815][962]LogShaderCompilers: Display: Submitted 56 shader compile jobs with 'Low' priority
+[2022.05.29-12.14.55:817][962]LogMaterial: Display: Material /Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_BeamPar.M_Belica_Heavy_BeamPar needed to have new flag set bUsedWithSkeletalMesh !
+[2022.05.29-12.14.55:821][962]LogMaterial: Display: Missing cached shadermap for M_Belica_Heavy_BeamPar in PCD3D_SM5, Default, SM5 (DDC key hash: 917CE1B74DBCEF9AA546006430771CF89A8FDF03), compiling. 
+[2022.05.29-12.14.55:879][962]LogShaderCompilers: Display: Submitted 70 shader compile jobs with 'Low' priority
+[2022.05.29-12.14.56:435][991]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2022.05.29-12.14.56:435][991]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.56:656][  4]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.05.29-12.14.56:657][  4]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.56:848][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.05.29-12.14.56:915][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap" FILE="D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-12.14.56:921][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.05.29-12.14.56:921][ 14]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.56:921][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.05.29-12.14.57:239][ 14]LogSavePackage: Moving 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Saved/DefaultMap4EC6508B4819A33971AB78BB6BE6775D.tmp' to 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap.umap'
+[2022.05.29-12.14.57:262][ 14]LogFileHelpers: Saving map 'DefaultMap' took 0.348
+[2022.05.29-12.14.57:521][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.05.29-12.14.57:521][ 14]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.58:149][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.05.29-12.14.58:149][ 14]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.58:562][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2022.05.29-12.14.58:562][ 14]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.29-12.14.58:562][ 14]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 341
+[2022.05.29-12.14.58:562][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.58:771][ 14]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 331
+[2022.05.29-12.14.58:771][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.59:191][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 321
+[2022.05.29-12.14.59:191][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.59:191][ 14]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 311
+[2022.05.29-12.14.59:191][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.14.59:533][ 14]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 301
+[2022.05.29-12.14.59:533][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.00:237][ 14]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 291
+[2022.05.29-12.15.00:237][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.01:065][ 14]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 281
+[2022.05.29-12.15.01:065][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.01:220][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 271
+[2022.05.29-12.15.01:220][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.01:694][ 14]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 261
+[2022.05.29-12.15.01:694][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.01:783][ 14]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 251
+[2022.05.29-12.15.01:783][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.02:103][ 14]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 241
+[2022.05.29-12.15.02:103][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.02:313][ 14]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 231
+[2022.05.29-12.15.02:313][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.02:522][ 14]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 221
+[2022.05.29-12.15.02:522][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.03:151][ 14]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 211
+[2022.05.29-12.15.03:151][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.05:038][ 14]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 201
+[2022.05.29-12.15.05:038][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.06:086][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 191
+[2022.05.29-12.15.06:086][ 14]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 181
+[2022.05.29-12.15.06:086][ 14]LogShaderCompilers: Display: Started 20 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.06:285][ 14]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 171
+[2022.05.29-12.15.06:285][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.06:752][ 14]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 161
+[2022.05.29-12.15.06:753][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.07:039][ 14]LogSavePackage: Moving 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Saved/M_Belica_Heavy_BeamParA8A78D764A0AC761E36F2CB3C2E4CEFB.tmp' to 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_BeamPar.uasset'
+[2022.05.29-12.15.07:069][ 14]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.29-12.15.07:069][ 14]LogContentValidation: Display: Validating Material /Game/ParagonLtBelica/FX/Materials/Heroes/Belica/Skins/HeavyArmor/M_Belica_Heavy_BeamPar.M_Belica_Heavy_BeamPar
+[2022.05.29-12.15.07:069][ 14]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2022.05.29-12.15.07:512][ 26]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 151
+[2022.05.29-12.15.07:512][ 26]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.07:598][ 28]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 141
+[2022.05.29-12.15.07:598][ 28]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.07:767][ 34]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 131
+[2022.05.29-12.15.07:767][ 34]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.08:812][ 81]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 121
+[2022.05.29-12.15.08:813][ 81]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.10:535][198]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 111
+[2022.05.29-12.15.10:535][198]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.10:631][204]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 101
+[2022.05.29-12.15.10:632][204]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.10:948][224]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 91
+[2022.05.29-12.15.10:948][224]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.12:165][305]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 81
+[2022.05.29-12.15.12:166][305]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.12:415][318]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 71
+[2022.05.29-12.15.12:415][318]LogShaderCompilers: Display: Started 9 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.13:936][418]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 62
+[2022.05.29-12.15.13:936][418]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.14:283][441]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 54
+[2022.05.29-12.15.14:283][441]LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.14:847][480]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 47
+[2022.05.29-12.15.14:847][480]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.15:650][534]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 41
+[2022.05.29-12.15.15:650][534]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.16:725][584]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 35
+[2022.05.29-12.15.16:725][584]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.16:771][585]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 30
+[2022.05.29-12.15.16:771][585]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.16:889][592]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 26
+[2022.05.29-12.15.16:889][592]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.16:904][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HipFire)
+[2022.05.29-12.15.17:551][621]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 22
+[2022.05.29-12.15.17:551][621]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.17:662][626]LogEditorViewport: Clicking on Actor (LMB): BaseWeaponBP_C (BaseWeaponBP3)
+[2022.05.29-12.15.17:728][626]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 19
+[2022.05.29-12.15.17:728][626]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.18:049][641]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2022.05.29-12.15.18:049][641]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.18:412][663]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.05.29-12.15.18:413][663]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.18:441][664]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
+[2022.05.29-12.15.18:441][664]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.18:767][686]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2022.05.29-12.15.18:767][686]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.18:835][688]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.05.29-12.15.18:835][688]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.18:970][698]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.05.29-12.15.18:970][698]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.19:054][703]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2022.05.29-12.15.19:054][703]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.19:158][710]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.05.29-12.15.19:158][710]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.19:234][713]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2022.05.29-12.15.19:234][713]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.19:398][718]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.05.29-12.15.19:398][718]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.19:514][721]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2022.05.29-12.15.19:514][721]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.29-12.15.19:734][733]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.29-12.15.19:750][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-12.15.19:750][733]PIE: New page: PIE session: DefaultMap (May 30, 2022, 6:15:19 AM)
+[2022.05.29-12.15.19:751][733]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-12.15.19:754][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003374s)
+[2022.05.29-12.15.19:755][733]LogAIModule: Creating AISystem for world DefaultMap
+[2022.05.29-12.15.19:755][733]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2022.05.29-12.15.19:755][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.004900s)
+[2022.05.29-12.15.19:762][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.05.29-12.15.19:770][733]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.05.29-12.15.19:770][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-12.15.19:770][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-12.15.19:770][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-12.15.19:770][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-12.15.19:770][733]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-12.15.19:771][733]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-12.15.19:771][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-12.15.19:771][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-12.15.19:771][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-12.15.19:771][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-12.15.19:771][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-12.15.19:771][733]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-12.15.19:774][733]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-12.15.19:774][733]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-12.15.19:792][733]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2022.05.29-12.15.19:792][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-12.15.19:793][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-12.15.19:793][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-12.15.19:794][733]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-12.15.19:794][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-12.15.19:794][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-12.15.19:795][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-12.15.19:795][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-12.15.19:795][733]LogInit: FAudioDevice initialized.
+[2022.05.29-12.15.19:795][733]LogAudio: Display: Audio Device (ID: 23) registered with world 'DefaultMap'.
+[2022.05.29-12.15.19:810][733]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.05.29-12.15.19:813][733]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2022.05.29-21.15.19
+[2022.05.29-12.15.19:813][733]LogWorld: Bringing up level for play took: 0.002146
+[2022.05.29-12.15.19:813][733]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.05.29-12.15.19:820][733]PIE: Server logged in
+[2022.05.29-12.15.19:821][733]PIE: Play in editor total start time 0.072 seconds.
+[2022.05.29-12.15.28:457][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-12.15.28:457][719]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-12.15.28:457][719]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-12.15.28:457][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-12.15.28:464][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-12.15.28:501][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-12.15.28:506][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-12.15.28:507][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-12.15.28:508][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-12.15.28:512][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.05.29-12.15.28:570][720]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.05.29-12.15.36:810][198]LogEditorViewport: Clicking on Actor (LMB): BaseWeaponBP_C (BaseWeaponBP2)
+[2022.05.29-12.15.56:696][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HipFire)
+[2022.05.29-12.15.57:064][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap" FILE="D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-12.15.57:069][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.05.29-12.15.57:334][302]LogSavePackage: Moving 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Saved/DefaultMap2E6215F4497B1C06B5D4E7BE7344EB6A.tmp' to 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap.umap'
+[2022.05.29-12.15.57:354][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2022.05.29-12.15.57:434][302]LogSavePackage: Moving 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Saved/DefaultMap_BuiltData87A9F0CF44ACEB0954722EA7AF066500.tmp' to 'D:/All_Of_My_Life/github/SingleShooter/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2022.05.29-12.15.57:450][302]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.29-12.15.57:450][302]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2022.05.29-12.15.57:450][302]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2022.05.29-12.16.12:096][512]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.29-12.16.12:112][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-12.16.12:112][512]PIE: New page: PIE session: DefaultMap (May 30, 2022, 6:16:12 AM)
+[2022.05.29-12.16.12:112][512]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-12.16.12:115][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002573s)
+[2022.05.29-12.16.12:134][512]LogAIModule: Creating AISystem for world DefaultMap
+[2022.05.29-12.16.12:134][512]LogPlayLevel: PIE: World Init took: (0.019871s)
+[2022.05.29-12.16.12:134][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.022553s)
+[2022.05.29-12.16.12:140][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.05.29-12.16.12:141][512]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.05.29-12.16.12:141][512]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-12.16.12:141][512]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-12.16.12:141][512]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-12.16.12:142][512]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-12.16.12:142][512]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-12.16.12:142][512]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-12.16.12:142][512]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-12.16.12:142][512]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-12.16.12:142][512]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-12.16.12:142][512]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-12.16.12:142][512]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-12.16.12:142][512]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-12.16.12:144][512]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-12.16.12:144][512]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-12.16.12:156][512]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2022.05.29-12.16.12:157][512]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-12.16.12:157][512]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-12.16.12:157][512]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-12.16.12:157][512]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-12.16.12:157][512]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-12.16.12:157][512]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-12.16.12:158][512]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-12.16.12:158][512]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-12.16.12:158][512]LogInit: FAudioDevice initialized.
+[2022.05.29-12.16.12:158][512]LogAudio: Display: Audio Device (ID: 24) registered with world 'DefaultMap'.
+[2022.05.29-12.16.12:170][512]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.05.29-12.16.12:171][512]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2022.05.29-21.16.12
+[2022.05.29-12.16.12:172][512]LogWorld: Bringing up level for play took: 0.001395
+[2022.05.29-12.16.12:172][512]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.05.29-12.16.12:177][512]PIE: Server logged in
+[2022.05.29-12.16.12:178][512]PIE: Play in editor total start time 0.067 seconds.
+[2022.05.29-12.16.45:697][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-12.16.45:697][858]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-12.16.45:697][858]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-12.16.45:698][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-12.16.45:708][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-12.16.45:748][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-12.16.45:753][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-12.16.45:753][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-12.16.45:754][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-12.16.45:758][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.05.29-12.16.45:831][859]Cmd: SELECT NONE
+[2022.05.29-12.16.45:838][859]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.05.29-12.17.51:743][197]LogHotReload: New module detected: UE4Editor-Shooter-0010.dll
+[2022.05.29-12.17.54:131][204]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.29-12.17.54:179][204]LogClass: EItemState HotReload.
+[2022.05.29-12.17.54:179][204]LogClass: EItemRarity HotReload.
+[2022.05.29-12.17.54:186][204]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2022.05.29-12.17.54:192][204]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.05.29-12.17.54:260][204]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0136 seconds. Added 3827 classes and 930 folders.
+[2022.05.29-12.17.54:268][204]Display: HotReload took  0.1s.
+[2022.05.29-12.17.56:637][269]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.29-12.17.56:651][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-12.17.56:651][269]PIE: New page: PIE session: DefaultMap (May 30, 2022, 6:17:56 AM)
+[2022.05.29-12.17.56:676][269]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-12.17.56:679][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002860s)
+[2022.05.29-12.17.56:680][269]LogAIModule: Creating AISystem for world DefaultMap
+[2022.05.29-12.17.56:680][269]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2022.05.29-12.17.56:680][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.004119s)
+[2022.05.29-12.17.56:695][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.05.29-12.17.56:697][269]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.05.29-12.17.56:697][269]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-12.17.56:697][269]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-12.17.56:697][269]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-12.17.56:697][269]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-12.17.56:697][269]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-12.17.56:697][269]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-12.17.56:697][269]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-12.17.56:697][269]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-12.17.56:697][269]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-12.17.56:697][269]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-12.17.56:697][269]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-12.17.56:697][269]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-12.17.56:699][269]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-12.17.56:699][269]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-12.17.56:711][269]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2022.05.29-12.17.56:712][269]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-12.17.56:712][269]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-12.17.56:712][269]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-12.17.56:712][269]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-12.17.56:712][269]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-12.17.56:712][269]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-12.17.56:714][269]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-12.17.56:714][269]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-12.17.56:714][269]LogInit: FAudioDevice initialized.
+[2022.05.29-12.17.56:714][269]LogAudio: Display: Audio Device (ID: 25) registered with world 'DefaultMap'.
+[2022.05.29-12.17.56:721][269]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.05.29-12.17.56:722][269]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2022.05.29-21.17.56
+[2022.05.29-12.17.56:722][269]LogWorld: Bringing up level for play took: 0.001355
+[2022.05.29-12.17.56:723][269]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.05.29-12.17.56:727][269]PIE: Server logged in
+[2022.05.29-12.17.56:728][269]PIE: Play in editor total start time 0.077 seconds.
+[2022.05.29-12.18.36:157][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-12.18.36:157][332]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.05.29-12.18.36:157][332]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-12.18.36:158][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-12.18.36:169][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-12.18.36:172][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-12.18.36:177][332]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-12.18.36:177][332]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-12.18.36:178][332]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-12.18.36:179][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-12.18.36:182][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.05.29-12.18.36:226][333]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.05.29-14.28.37:870][853]LogHotReload: New module detected: UE4Editor-Shooter-0011.dll
+[2022.05.29-14.28.42:166][866]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.29-14.28.42:461][866]LogClass: Could not find existing class ShooterCharacter in package /Script/Shooter for HotReload, assuming new class
+[2022.05.29-14.28.42:462][866]LogClass: Function AutoFireReset is new.
+[2022.05.29-14.28.42:463][866]LogClass: Function FinishCrosshairBulletFire is new.
+[2022.05.29-14.28.42:463][866]LogClass: Function GetCrosshairSpreadMultipllier is new.
+[2022.05.29-14.28.42:463][866]LogClass: Function StartCrosshairBulletFire is new.
+[2022.05.29-14.28.42:463][866]LogClass: Function TraceUnderCrosshairs is new.
+[2022.05.29-14.28.42:473][866]LogClass: EItemState HotReload.
+[2022.05.29-14.28.42:473][866]LogClass: EItemRarity HotReload.
+[2022.05.29-14.28.42:526][866]LogHotReload: Re-instancing ShooterCharacter after hot-reload.
+[2022.05.29-14.28.42:635][866]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0034 seconds. Added 5 classes and 2 folders.
+[2022.05.29-14.28.42:663][866]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2022.05.29-14.28.42:879][866]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0369 seconds. Added 3827 classes and 930 folders.
+[2022.05.29-14.28.42:906][866]Display: HotReload took  0.7s.
