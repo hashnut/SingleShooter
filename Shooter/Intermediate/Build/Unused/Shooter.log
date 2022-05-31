@@ -1,22 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\All_Of_My_Life\github\SingleShooter).
-  Parsing headers for ShooterEditor
-    Running UnrealHeaderTool "D:\All_Of_My_Life\github\SingleShooter\Shooter\Shooter.uproject" "D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for ShooterEditor in 9.4396909 seconds
   Building ShooterEditor...
   Using Visual Studio 2019 14.29.30145 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 12 processes...
-    [1/8] Shooter.init.gen.cpp
-    [2/8] ShooterAnimInstance.cpp
-    [3/8] ShooterCharacter.gen.cpp
-    [4/8] Item.cpp
-    [5/8] ShooterCharacter.cpp
-D:\All_Of_My_Life\github\SingleShooter\Shooter\Source\Shooter\ShooterCharacter.cpp(46): warning C5038: data member 'AShooterCharacter::AutomaticFireRate' will be initialized after data member 'AShooterCharacter::bShouldFire'
-D:\All_Of_My_Life\github\SingleShooter\Shooter\Source\Shooter\ShooterCharacter.cpp(47): warning C5038: data member 'AShooterCharacter::bShouldFire' will be initialized after data member 'AShooterCharacter::bFireButtonPressed'
-    [6/8] UE4Editor-Shooter-0011.lib
-       Creating library D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0011.lib and object D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0011.exp
-    [7/8] UE4Editor-Shooter-0011.dll
-       Creating library D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0011.suppressed.lib and object D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0011.suppressed.exp
-    [8/8] ShooterEditor.target
-  Total time in Parallel executor: 37.42 seconds
-  Total execution time: 48.48 seconds
+  Building 4 actions with 12 processes...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.

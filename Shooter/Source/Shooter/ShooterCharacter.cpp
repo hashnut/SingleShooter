@@ -16,6 +16,8 @@
 #include "Components/BoxComponent.h"
 #include "Components/SphereComponent.h"
 
+//DEFINE_LOG_CATEGORY_STATIC(TestLog, Log, All);
+
 // Sets default values
 AShooterCharacter::AShooterCharacter() :
 	// Base rates for turning/looking up
@@ -170,6 +172,15 @@ FVector AShooterCharacter::GetCameraInterpLocation()
 	// Desired = CameraWorldLocation + Forward * A + Up * B
 	return CameraWorldLocation + CameraForward * CameraInterpDistance
 		+ FVector(0.f, 0.f, CameraInterpElevation);
+}
+
+void AShooterCharacter::GetPickupItem(AItem* Item)
+{
+	auto Weapon = Cast<AWeapon>(Item);
+	if (Weapon)
+	{
+		SwapWeapon(Weapon);
+	}
 }
 
 void AShooterCharacter::MoveForward(float Value)
@@ -622,15 +633,17 @@ void AShooterCharacter::SelectButtonPressed()
 {
 	if (TraceHitItem)
 	{
-		auto TraceHitWeapon = Cast<AWeapon>(TraceHitItem);
-		SwapWeapon(TraceHitWeapon);
 
+		TraceHitItem->StartItemCurve(this);
+
+		//auto TraceHitWeapon = Cast<AWeapon>(TraceHitItem);
+		//SwapWeapon(TraceHitWeapon);
 	}
 }
 
 void AShooterCharacter::SelectButtonReleased()
 {
-
+	
 }
 
 void AShooterCharacter::SwapWeapon(AWeapon* WeaponToSwap)
