@@ -10,5 +10,6 @@ public class ShooterTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "Shooter" } );
+		//WindowsPlatform.PCHMemoryAllocationFactor = 2000;
 	}
 }
