@@ -15,8 +15,8 @@ struct FVector;
 #endif
 #define SHOOTER_ShooterCharacter_generated_h
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_SPARSE_DATA
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_RPC_WRAPPERS \
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_SPARSE_DATA
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetCrosshairSpreadMultipllier); \
 	DECLARE_FUNCTION(execTraceUnderCrosshairs); \
@@ -25,7 +25,7 @@ struct FVector;
 	DECLARE_FUNCTION(execStartCrosshairBulletFire);
 
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetCrosshairSpreadMultipllier); \
 	DECLARE_FUNCTION(execTraceUnderCrosshairs); \
@@ -34,7 +34,7 @@ struct FVector;
 	DECLARE_FUNCTION(execStartCrosshairBulletFire);
 
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
 	friend struct Z_Construct_UClass_AShooterCharacter_Statics; \
@@ -43,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(AShooterCharacter)
 
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_INCLASS \
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
 	friend struct Z_Construct_UClass_AShooterCharacter_Statics; \
@@ -52,7 +52,7 @@ public: \
 	DECLARE_SERIALIZER(AShooterCharacter)
 
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AShooterCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AShooterCharacter) \
@@ -65,7 +65,7 @@ private: \
 public:
 
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AShooterCharacter(AShooterCharacter&&); \
@@ -76,7 +76,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AShooterCharacter)
 
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AShooterCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AShooterCharacter, FollowCamera); } \
 	FORCEINLINE static uint32 __PPO__BaseTurnRate() { return STRUCT_OFFSET(AShooterCharacter, BaseTurnRate); } \
@@ -106,30 +106,33 @@ public: \
 	FORCEINLINE static uint32 __PPO__DefaultWeaponClass() { return STRUCT_OFFSET(AShooterCharacter, DefaultWeaponClass); } \
 	FORCEINLINE static uint32 __PPO__TraceHitItem() { return STRUCT_OFFSET(AShooterCharacter, TraceHitItem); } \
 	FORCEINLINE static uint32 __PPO__CameraInterpDistance() { return STRUCT_OFFSET(AShooterCharacter, CameraInterpDistance); } \
-	FORCEINLINE static uint32 __PPO__CameraInterpElevation() { return STRUCT_OFFSET(AShooterCharacter, CameraInterpElevation); }
+	FORCEINLINE static uint32 __PPO__CameraInterpElevation() { return STRUCT_OFFSET(AShooterCharacter, CameraInterpElevation); } \
+	FORCEINLINE static uint32 __PPO__AmmoMap() { return STRUCT_OFFSET(AShooterCharacter, AmmoMap); } \
+	FORCEINLINE static uint32 __PPO__Starting9mmAmmo() { return STRUCT_OFFSET(AShooterCharacter, Starting9mmAmmo); } \
+	FORCEINLINE static uint32 __PPO__StartingARAmmo() { return STRUCT_OFFSET(AShooterCharacter, StartingARAmmo); }
 
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_9_PROLOG
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_GENERATED_BODY_LEGACY \
+#define Shooter_Source_Shooter_ShooterCharacter_h_19_PROLOG
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_SPARSE_DATA \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_RPC_WRAPPERS \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_INCLASS \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_STANDARD_CONSTRUCTORS \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_SPARSE_DATA \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_RPC_WRAPPERS \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_INCLASS \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Shooter_Source_Shooter_ShooterCharacter_h_12_GENERATED_BODY \
+#define Shooter_Source_Shooter_ShooterCharacter_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_SPARSE_DATA \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	Shooter_Source_Shooter_ShooterCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_SPARSE_DATA \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_INCLASS_NO_PURE_DECLS \
+	Shooter_Source_Shooter_ShooterCharacter_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -139,5 +142,13 @@ template<> SHOOTER_API UClass* StaticClass<class AShooterCharacter>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID Shooter_Source_Shooter_ShooterCharacter_h
 
+
+#define FOREACH_ENUM_EAMMOTYPE(op) \
+	op(EAmmoType::EAT_9mm) \
+	op(EAmmoType::EAT_AR) \
+	op(EAmmoType::EAT_NAX) 
+
+enum class EAmmoType : uint8;
+template<> SHOOTER_API UEnum* StaticEnum<EAmmoType>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

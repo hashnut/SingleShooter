@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Shooter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3BB2502E-CF52-47BF-B2BB-C5786244E61E}</UniqueIdentifier>
+      <UniqueIdentifier>{7B9CF6EA-C321-4225-98C3-C30C40C38F1B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{70B530D1-AF27-403D-8D79-766673E7EC54}</UniqueIdentifier>
+      <UniqueIdentifier>{4684F0F1-AF2E-40E1-AB3B-E47814D3FD79}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,33 +27,39 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Shooter">
-      <UniqueIdentifier>{8F0CB553-2680-4DDB-BD92-89FE35E48A29}</UniqueIdentifier>
+      <UniqueIdentifier>{415111F1-A92A-4E3F-96B7-D8C7352BEF4A}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\Shooter\Item.h">
-      <Filter>Source\Shooter</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\Shooter\Shooter.cpp">
       <Filter>Source\Shooter</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Shooter\Shooter.h">
+    <ClCompile Include="..\..\Source\Shooter\Item.cpp">
       <Filter>Source\Shooter</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Shooter\ShooterGameModeBase.cpp">
       <Filter>Source\Shooter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Shooter\ShooterGameModeBase.h">
       <Filter>Source\Shooter</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Shooter\ShooterCharacter.cpp">
+    <ClInclude Include="..\..\Source\Shooter\ShooterCharacter.h">
       <Filter>Source\Shooter</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Shooter\Item.cpp">
-      <Filter>Source\Shooter</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Shooter\ShooterAnimInstance.h">
       <Filter>Source\Shooter</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Shooter\ShooterAnimInstance.cpp">
+      <Filter>Source\Shooter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter\ShooterCharacter.cpp">
+      <Filter>Source\Shooter</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\Shooter\Shooter.Build.cs">
+      <Filter>Source\Shooter</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\Shooter\ShooterPlayerController.h">
+      <Filter>Source\Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Shooter\ShooterPlayerController.cpp">
       <Filter>Source\Shooter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Shooter\Weapon.h">
@@ -62,10 +68,10 @@
     <ClCompile Include="..\..\Source\Shooter\Weapon.cpp">
       <Filter>Source\Shooter</Filter>
     </ClCompile>
-    <None Include="..\..\Source\Shooter\Shooter.Build.cs">
+    <ClInclude Include="..\..\Source\Shooter\Shooter.h">
       <Filter>Source\Shooter</Filter>
-    </None>
-    <ClInclude Include="..\..\Source\Shooter\ShooterCharacter.h">
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter\Item.h">
       <Filter>Source\Shooter</Filter>
     </ClInclude>
   </ItemGroup>

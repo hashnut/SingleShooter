@@ -52,7 +52,9 @@ AShooterCharacter::AShooterCharacter() :
 	bShouldTraceForItems(false),
 	// CameraInterpLocation
 	CameraInterpDistance(250.f),
-	CameraInterpElevation(65.f)
+	CameraInterpElevation(65.f),
+	Starting9mmAmmo(85),
+	StartingARAmmo(130)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -96,6 +98,8 @@ void AShooterCharacter::BeginPlay()
 
 	// Spawn the default weapon and equip it
 	EquipWeapon(SpawnDefaultWeapon());
+
+	InitializeAmmoMap();
 }
 
 // Called every frame
@@ -303,6 +307,12 @@ void AShooterCharacter::FireWeapon()
 
 	// Start bullet fire timer for crosshairs
 	StartCrosshairBulletFire();
+
+	if (EquippedWeapon)
+	{
+		// Subtract 1 from the Weapon's Ammo
+		EquippedWeapon->DecrementAmmo();
+	}
 }
 
 bool AShooterCharacter::GetBeamEndLocation(
@@ -472,8 +482,11 @@ void AShooterCharacter::FinishCrosshairBulletFire()
 
 void AShooterCharacter::FireButtonPressed()
 {
-	bFireButtonPressed = true;
-	StartFireTimer();
+	if (WeaponHasAmmo())
+	{
+		bFireButtonPressed = true;
+		StartFireTimer();
+	}
 }
 
 void AShooterCharacter::FireButtonReleased()
@@ -497,10 +510,13 @@ void AShooterCharacter::StartFireTimer()
 
 void AShooterCharacter::AutoFireReset()
 {
-	bShouldFire = true;
-	if (bFireButtonPressed)
+	if (WeaponHasAmmo())
 	{
-		StartFireTimer();
+		bShouldFire = true;
+		if (bFireButtonPressed)
+		{
+			StartFireTimer();
+		}
 	}
 }
 
@@ -652,4 +668,17 @@ void AShooterCharacter::SwapWeapon(AWeapon* WeaponToSwap)
 	EquipWeapon(WeaponToSwap);
 	TraceHitItem = nullptr;
 	TraceHitItemLastFrame = nullptr;
+}
+
+void AShooterCharacter::InitializeAmmoMap()
+{
+	AmmoMap.Add(EAmmoType::EAT_9mm, Starting9mmAmmo);
+	AmmoMap.Add(EAmmoType::EAT_AR, StartingARAmmo);
+}
+
+bool AShooterCharacter::WeaponHasAmmo()
+{
+	if (EquippedWeapon == nullptr) return false;
+
+	return EquippedWeapon->GetAmmo() > 0;
 }

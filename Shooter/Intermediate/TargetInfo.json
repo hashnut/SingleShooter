@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Shooter",
-			"Path": "D:\\All_Of_My_Life\\github\\SingleShooter_backup\\SingleShooter\\Shooter\\Source\\Shooter.Target.cs",
+			"Path": "D:\\All_Of_My_Life\\github\\SingleShooter\\Shooter\\Source\\Shooter.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ShooterEditor",
-			"Path": "D:\\All_Of_My_Life\\github\\SingleShooter_backup\\SingleShooter\\Shooter\\Source\\ShooterEditor.Target.cs",
+			"Path": "D:\\All_Of_My_Life\\github\\SingleShooter\\Shooter\\Source\\ShooterEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
