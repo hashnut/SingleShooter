@@ -19,6 +19,7 @@ struct FVector;
 #define Shooter_Source_Shooter_ShooterCharacter_h_31_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetCrosshairSpreadMultipllier); \
+	DECLARE_FUNCTION(execFinishReloading); \
 	DECLARE_FUNCTION(execTraceUnderCrosshairs); \
 	DECLARE_FUNCTION(execAutoFireReset); \
 	DECLARE_FUNCTION(execFinishCrosshairBulletFire); \
@@ -28,6 +29,7 @@ struct FVector;
 #define Shooter_Source_Shooter_ShooterCharacter_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetCrosshairSpreadMultipllier); \
+	DECLARE_FUNCTION(execFinishReloading); \
 	DECLARE_FUNCTION(execTraceUnderCrosshairs); \
 	DECLARE_FUNCTION(execAutoFireReset); \
 	DECLARE_FUNCTION(execFinishCrosshairBulletFire); \
@@ -110,7 +112,8 @@ public: \
 	FORCEINLINE static uint32 __PPO__AmmoMap() { return STRUCT_OFFSET(AShooterCharacter, AmmoMap); } \
 	FORCEINLINE static uint32 __PPO__Starting9mmAmmo() { return STRUCT_OFFSET(AShooterCharacter, Starting9mmAmmo); } \
 	FORCEINLINE static uint32 __PPO__StartingARAmmo() { return STRUCT_OFFSET(AShooterCharacter, StartingARAmmo); } \
-	FORCEINLINE static uint32 __PPO__CombatState() { return STRUCT_OFFSET(AShooterCharacter, CombatState); }
+	FORCEINLINE static uint32 __PPO__CombatState() { return STRUCT_OFFSET(AShooterCharacter, CombatState); } \
+	FORCEINLINE static uint32 __PPO__ReloadMontage() { return STRUCT_OFFSET(AShooterCharacter, ReloadMontage); }
 
 
 #define Shooter_Source_Shooter_ShooterCharacter_h_28_PROLOG
