@@ -2,4 +2,5 @@ D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Edito
 D:\All_Of_My_Life\github\SingleShooter\Shooter\Source\Shooter\Weapon.h
 D:\All_Of_My_Life\github\SingleShooter\Shooter\Source\Shooter\Item.h
 D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Inc\Shooter\Item.generated.h
+D:\All_Of_My_Life\github\SingleShooter\Shooter\Source\Shooter\AmmoType.h
 D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Inc\Shooter\Weapon.generated.h

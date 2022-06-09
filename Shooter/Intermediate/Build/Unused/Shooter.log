@@ -2,30 +2,25 @@
   Parsing headers for ShooterEditor
     Running UnrealHeaderTool "D:\All_Of_My_Life\github\SingleShooter\Shooter\Shooter.uproject" "D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
   LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for ShooterEditor in 4.0981067 seconds
+  Reflection code generated for ShooterEditor in 8.4788126 seconds
+  Deleted hot-reload file: D:\All_Of_My_Life\github\SingleShooter\Shooter\Binaries\Win64\UE4Editor-Shooter-3700.dll
+  Deleted hot-reload file: D:\All_Of_My_Life\github\SingleShooter\Shooter\Binaries\Win64\UE4Editor-Shooter-3700.pdb
+  Deleted hot-reload file: D:\All_Of_My_Life\github\SingleShooter\Shooter\Binaries\Win64\UE4Editor-Shooter-9925.dll
+  Deleted hot-reload file: D:\All_Of_My_Life\github\SingleShooter\Shooter\Binaries\Win64\UE4Editor-Shooter-9925.pdb
+  Deleted hot-reload file: D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-3700.lib
+  Deleted hot-reload file: D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-9925.lib
   Building ShooterEditor...
   Using Visual Studio 2019 14.29.30145 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 12 processes...
-    [1/7] ShooterCharacter.cpp
-c1xx : error C3859: Failed to create virtual memory for PCH
-    c1xx: note: the system returned code 1455: 이 작업을 완료하기 위한 페이징 파일이 너무 작습니다.
-    
-    
-    c1xx: note: please visit https://aka.ms/pch-help for more details
-c1xx : fatal error C1076: compiler limit: internal heap limit reached
-    [2/7] Shooter.init.gen.cpp
-c1xx : error C3859: Failed to create virtual memory for PCH
-    c1xx: note: the system returned code 1455: 이 작업을 완료하기 위한 페이징 파일이 너무 작습니다.
-    
-    
-    c1xx: note: please visit https://aka.ms/pch-help for more details
-c1xx : fatal error C1076: compiler limit: internal heap limit reached
-    [3/7] Weapon.gen.cpp
-c1xx : error C3859: Failed to create virtual memory for PCH
-    c1xx: note: the system returned code 1455: 이 작업을 완료하기 위한 페이징 파일이 너무 작습니다.
-    
-    
-    c1xx: note: please visit https://aka.ms/pch-help for more details
-c1xx : fatal error C1076: compiler limit: internal heap limit reached
-    [4/7] Weapon.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Build.bat" ShooterEditor Win64 Development -Project="D:\All_Of_My_Life\github\SingleShooter\Shooter\Shooter.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+  Building 6 actions with 12 processes...
+    [1/6] Weapon.cpp
+    [2/6] Weapon.gen.cpp
+    [3/6] ShooterCharacter.cpp
+D:\All_Of_My_Life\github\SingleShooter\Shooter\Source\Shooter\ShooterCharacter.cpp(48): warning C5038: data member 'AShooterCharacter::AutomaticFireRate' will be initialized after data member 'AShooterCharacter::bShouldFire'
+D:\All_Of_My_Life\github\SingleShooter\Shooter\Source\Shooter\ShooterCharacter.cpp(49): warning C5038: data member 'AShooterCharacter::bShouldFire' will be initialized after data member 'AShooterCharacter::bFireButtonPressed'
+    [4/6] UE4Editor-Shooter.lib
+       Creating library D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter.lib and object D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter.exp
+    [5/6] UE4Editor-Shooter.dll
+       Creating library D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter.suppressed.lib and object D:\All_Of_My_Life\github\SingleShooter\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter.suppressed.exp
+    [6/6] ShooterEditor.target
+  Total time in Parallel executor: 10.33 seconds
+  Total execution time: 19.50 seconds
